@@ -16,6 +16,10 @@
 		6C6CE94E17938E8A0082E7E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE94D17938E8A0082E7E6 /* Default.png */; };
 		6C6CE95017938E8A0082E7E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE94F17938E8A0082E7E6 /* Default@2x.png */; };
 		6C6CE95217938E8A0082E7E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE95117938E8A0082E7E6 /* Default-568h@2x.png */; };
+		6C6CE95A17938EB70082E7E6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE95917938EB70082E7E6 /* RootViewController.m */; };
+		6C6CE95C1793A13F0082E7E6 /* cellPicture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE95B1793A13F0082E7E6 /* cellPicture@2x.png */; };
+		6C6CE9601793C68B0082E7E6 /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE95F1793C68B0082E7E6 /* ShowView.m */; };
+		6C6CE9631793CFFE0082E7E6 /* VideoLIst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE9621793CFFE0082E7E6 /* VideoLIst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,13 @@
 		6C6CE94D17938E8A0082E7E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6C6CE94F17938E8A0082E7E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6C6CE95117938E8A0082E7E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6C6CE95817938EB70082E7E6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6C6CE95917938EB70082E7E6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6C6CE95B1793A13F0082E7E6 /* cellPicture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellPicture@2x.png"; sourceTree = "<group>"; };
+		6C6CE95E1793C68B0082E7E6 /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		6C6CE95F1793C68B0082E7E6 /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		6C6CE9611793CFFE0082E7E6 /* VideoLIst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoLIst.h; sourceTree = "<group>"; };
+		6C6CE9621793CFFE0082E7E6 /* VideoLIst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoLIst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +91,12 @@
 			children = (
 				6C6CE94A17938E8A0082E7E6 /* AppDelegate.h */,
 				6C6CE94B17938E8A0082E7E6 /* AppDelegate.m */,
+				6C6CE95817938EB70082E7E6 /* RootViewController.h */,
+				6C6CE95917938EB70082E7E6 /* RootViewController.m */,
+				6C6CE95E1793C68B0082E7E6 /* ShowView.h */,
+				6C6CE95F1793C68B0082E7E6 /* ShowView.m */,
+				6C6CE9611793CFFE0082E7E6 /* VideoLIst.h */,
+				6C6CE9621793CFFE0082E7E6 /* VideoLIst.m */,
 				6C6CE94217938E8A0082E7E6 /* Supporting Files */,
 			);
 			path = UIscrolldemo;
@@ -88,15 +105,24 @@
 		6C6CE94217938E8A0082E7E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C6CE94D17938E8A0082E7E6 /* Default.png */,
+				6C6CE94F17938E8A0082E7E6 /* Default@2x.png */,
+				6C6CE95117938E8A0082E7E6 /* Default-568h@2x.png */,
+				6C6CE95D1793A1440082E7E6 /* image */,
 				6C6CE94317938E8A0082E7E6 /* UIscrolldemo-Info.plist */,
 				6C6CE94417938E8A0082E7E6 /* InfoPlist.strings */,
 				6C6CE94717938E8A0082E7E6 /* main.m */,
 				6C6CE94917938E8A0082E7E6 /* UIscrolldemo-Prefix.pch */,
-				6C6CE94D17938E8A0082E7E6 /* Default.png */,
-				6C6CE94F17938E8A0082E7E6 /* Default@2x.png */,
-				6C6CE95117938E8A0082E7E6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C6CE95D1793A1440082E7E6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE95B1793A13F0082E7E6 /* cellPicture@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +180,7 @@
 				6C6CE94E17938E8A0082E7E6 /* Default.png in Resources */,
 				6C6CE95017938E8A0082E7E6 /* Default@2x.png in Resources */,
 				6C6CE95217938E8A0082E7E6 /* Default-568h@2x.png in Resources */,
+				6C6CE95C1793A13F0082E7E6 /* cellPicture@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +193,9 @@
 			files = (
 				6C6CE94817938E8A0082E7E6 /* main.m in Sources */,
 				6C6CE94C17938E8A0082E7E6 /* AppDelegate.m in Sources */,
+				6C6CE95A17938EB70082E7E6 /* RootViewController.m in Sources */,
+				6C6CE9601793C68B0082E7E6 /* ShowView.m in Sources */,
+				6C6CE9631793CFFE0082E7E6 /* VideoLIst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +270,14 @@
 		6C6CE95617938E8A0082E7E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yao Haiping (75NH6JX8NX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yao Haiping (75NH6JX8NX)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIscrolldemo/UIscrolldemo-Prefix.pch";
 				INFOPLIST_FILE = "UIscrolldemo/UIscrolldemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "269E996D-0DB1-410D-A07B-FEA4AC04CCEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "269E996D-0DB1-410D-A07B-FEA4AC04CCEF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,10 +285,12 @@
 		6C6CE95717938E8A0082E7E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yao Haiping (75NH6JX8NX)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIscrolldemo/UIscrolldemo-Prefix.pch";
 				INFOPLIST_FILE = "UIscrolldemo/UIscrolldemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "269E996D-0DB1-410D-A07B-FEA4AC04CCEF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -278,6 +314,7 @@
 				6C6CE95717938E8A0082E7E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
